@@ -1,8 +1,8 @@
 /**
- * Classe que representa o descanso de um aluno no COISA. O número de horas de descanso, quando constrói-se o objeto, é igual a 0.
- * Assim, para ficar descanso é necessário ter 26 horas de descanso por semana.
+ * Classe que representa o descanso de um aluno no COISA. O nÃºmero de horas de descanso, quando constrÃ³i-se o objeto, Ã© igual a 0.
+ * Assim, para ficar descansado Ã©  necessÃ¡rio ter 26 horas de descanso por semana.
  * 
- * @author Emanuel Araújo de Moura - 119210350
+ * @author Emanuel AraÃºjo de Moura - 119210350
  */
 public class Descanso {
 
@@ -11,12 +11,12 @@ public class Descanso {
 	 */
 	private int horasDescanso;
 	/**
-	 * Atributo privado que guarda o número de semanas que o aluno vai descansar.
+	 * Atributo privado que guarda o nÃºmero de semanas que o aluno vai descansar.
 	 */
 	private int numeroSemanas;
 	
 	/**
-	 * Construtor do Descanso, um descanso é começado com 0 horas de descanso e 0 número de semanas.
+	 * Construtor do Descanso, um descanso Ã© comeÃ§ado com 0 horas de descanso e 0 nÃºmero de semanas.
 	 */
 	public Descanso() {
 		this.horasDescanso = 0;
@@ -24,7 +24,7 @@ public class Descanso {
 	}
 	
 	/**
-	 * Método público que retorna o estado geral do descanso, se o descanso for maior ou igual a 26h/semana, a pessoa está descansada.
+	 * MÃ©todo pÃºblico que retorna o estado geral do descanso, se o descanso for maior ou igual a 26h/semana, a pessoa estÃ¡ descansada.
 	 * @return Retorna uma string com o estado do aluno
 	 */
 	public String getStatusGeral() {
@@ -42,7 +42,7 @@ public class Descanso {
 	}
 	
 	/**
-	 * Método sem retorno que define as horas de descanso
+	 * MÃ©todo sem retorno que define as horas de descanso.
 	 * 
 	 * @param horasDescanso As horas do descanso
 	 */
@@ -51,9 +51,9 @@ public class Descanso {
 	}
 	
 	/**
-	 * Método sem retorno que define o número de semanas
+	 * MÃ©todo sem retorno que define o nÃºmero de semanas.
 	 * 
-	 * @param numeroSemanas Números de semana
+	 * @param numeroSemanas NÃºmeros de semana
 	 */
 	public void defineNumeroSemanas(int numeroSemanas) {
 		this.numeroSemanas = numeroSemanas;

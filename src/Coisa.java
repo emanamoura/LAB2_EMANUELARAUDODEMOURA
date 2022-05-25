@@ -1,5 +1,5 @@
 /**
- * Essa � a classe principal, chamada de de Controle Institucional de Situa��o Acad�mica (COISA).
+ * Essa é a classe principal, chamada de de Controle Institucional de Situação Acadêmica (COISA).
  * Ela carrega os objetos e manipula os mesmos.
  */
 public class Coisa {

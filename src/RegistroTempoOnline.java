@@ -1,12 +1,12 @@
 /**
- * Classe que registra o tempo online que é esperado de um aluno, o tempo esperado é o dobro do tempo da disciplina.
+ * Classe que registra o tempo online que Ã© esperado de um aluno, o tempo esperado Ã© o dobro do tempo da disciplina.
  * 
- * @author Emanuel Araújo de Moura - 119210350
+ * @author Emanuel AraÃºjo de Moura - 119210350
  *
  */
 public class RegistroTempoOnline {
 	/**
-	 * Nome da disciplina que será registrada.
+	 * Nome da disciplina que serÃ¡ registrada.
 	 */
 	private String nomeDisciplina;
 	/**
@@ -19,9 +19,9 @@ public class RegistroTempoOnline {
 	private int tempoOnlineUsado;
 
 	/**
-	 * Construtor que o tempo esperado padrão é igual a 120 horas.
+	 * Construtor que o tempo esperado padrÃ£o Ã© igual a 120 horas.
 	 * 
-	 * @param nomeDisciplina Nome da disciplina que será registrado.
+	 * @param nomeDisciplina Nome da disciplina que serÃ¡ registrado.
 	 */
 	public RegistroTempoOnline(String nomeDisciplina) {
 		this.nomeDisciplina = nomeDisciplina;
@@ -29,9 +29,9 @@ public class RegistroTempoOnline {
 	}
 	
 	/**
-	 * Construtor que o tempo esperado é dado pelo usuário
+	 * Construtor que o tempo esperado Ã© dado pelo usuÃ¡rio
 	 * 
-	 * @param nomeDisciplina Nome da disciplina que será registrado.
+	 * @param nomeDisciplina Nome da disciplina que serÃ¡ registrado.
 	 * @param tempoOnlineEsperado Tempo online esperado de um determinada disciplina.
 	 */
 	public RegistroTempoOnline(String nomeDisciplina, int tempoOnlineEsperado) {
@@ -41,7 +41,7 @@ public class RegistroTempoOnline {
 	
 	/**
 	 * Adiciona um quantidade de tempo utilizada online.
-	 * @param tempo O tempo que será adicionado.
+	 * @param tempo O tempo que serÃ¡ adicionado.
 	 */
 	public void adicionaTempoOnline(int tempo) {
 		this.tempoOnlineUsado += tempo;
@@ -49,7 +49,7 @@ public class RegistroTempoOnline {
 	
 	/**
 	 * Verifica se atingiu a meta de tempo online de uma disciplina.
-	 * @return Se o tempo online usado for maior que o tempo online esperado, retorna true, caso contrário, retorna false.
+	 * @return Se o tempo online usado for maior que o tempo online esperado, retorna true, caso contrï¿½rio, retorna false.
 	 */
 	public boolean atingiuMetaTempoOnline() {
 		if(this.tempoOnlineUsado >= this.tempoOnlineEsperado) {
@@ -59,7 +59,7 @@ public class RegistroTempoOnline {
 	}
 	
 	/**
-	 * Método que retorna uma representação textual de um registro de tempo online, no seguinte formato:
+	 * MÃ©todo que retorna uma representaÃ§Ã£o textual de um registro de tempo online, no seguinte formato:
 	 * nomeDisciplina tempoOnlineUsado/tempoOnlineEsperado
 	 */
 	public String toString() {
