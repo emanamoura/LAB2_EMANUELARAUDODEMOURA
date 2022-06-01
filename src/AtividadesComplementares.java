@@ -97,9 +97,9 @@ public class AtividadesComplementares {
 		}
 		
 		resultado += "Cursos " + this.horasCurso;
-		resultado += "\n" + "Credito_Estagio " + this.contaCreditoEstagio()  + "\n"
+		resultado += "\n" + "Creditos_Estagio " + this.contaCreditoEstagio()  + "\n"
 				+ "Creditos_Projeto " + this.contaCreditoProjeto()  + "\n"
-				+ "Creditos_Cursos "  + this.horasCurso	 + " "+ this.contaCreditoCurso();	
+				+ "Creditos_Cursos " + " " + this.contaCreditoCurso();	
 		return resultado.split(",");
 	}
 	
